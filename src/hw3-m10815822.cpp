@@ -3,6 +3,8 @@
 int main(int argc, char const *argv[])
 {
     CameraCalibration calibration;
-
+    calibration.readCoords();
+    calibration.findK();
+    
     return 0;
 }

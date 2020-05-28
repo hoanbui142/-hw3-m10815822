@@ -12,7 +12,7 @@ struct Coord3dpoint
     float y;
     float z;
     //float w = 1;
-}
+};
 class CameraCalibration
 {
 public:
